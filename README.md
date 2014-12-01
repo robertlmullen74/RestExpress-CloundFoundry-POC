@@ -1,8 +1,9 @@
-A Minimal RestExpress Server
+Overview
 ============================
-A template RestExpress project that contains no external dependencies.
+A minimal https://github.com/RestExpress RestExpress project that contains no external dependencies, to POC running a rest express server on cloud foundry web services.
 
-To run the project:
+Rest Express
+==================
 1. git clone the project
 2. cd to the robtestartifact directory
 2. mvn clean package
