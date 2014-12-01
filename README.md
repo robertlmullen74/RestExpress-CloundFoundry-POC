@@ -20,6 +20,7 @@ You should see output like this, and then you can browse to
 
 terminal output...
 
+```
 robm@Robs-MacBook-Pro robtestartifact (master) $ cf push re-test2 -p target/robtestartifact-1.0-SNAPSHOT-jar-with-dependencies.jar 
 Updating app re-test2 in org robmullen-org / space development as robertlmullen74@gmail.com...
 OK
@@ -41,8 +42,8 @@ urls: restexpress-pivotal.cfapps.io
 last uploaded: Mon Dec 1 03:19:34 +0000 2014
 
      state     since                    cpu    memory          disk   
-#0   running   2014-11-30 08:20:09 PM   0.0%   70.5M of 512M   111.9M of 1G  
-
+0   running   2014-11-30 08:20:09 PM   0.0%   70.5M of 512M   111.9M of 1G  
+```
 
 If that's successful you should be able to curl (yoururl)/health -> {"status":"healthy"}
 
