@@ -17,7 +17,6 @@ Cloud Foundry
 3. Login with the CLI 
 4. cf push (app name) -p target/robtestartifact-1.0-SNAPSHOT-jar-with-dependencies.jar
 
-You should see output like this, and then you can browse to 
 
 terminal output...
 
