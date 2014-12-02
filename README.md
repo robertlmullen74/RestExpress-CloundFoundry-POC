@@ -47,3 +47,16 @@ last uploaded: Mon Dec 1 03:19:34 +0000 2014
 
 If that's successful you should be able to curl (yoururl)/health -> {"status":"healthy"}
 
+Details
+====================
+The main thing you have to do differently with cloud foundry and rest express is determine the port that the server is listening on, with cf that port is dynamically set at deploy time and added to the VCAP_APP_PORT environment variable, so you need to do something like this:
+
+```
+		if (System.getenv("VCAP_APP_PORT") == null)
+		{
+			port = 8080;
+		}
+		else{
+			port = Integer.parseInt(System.getenv("VCAP_APP_PORT"));
+		}
+```
