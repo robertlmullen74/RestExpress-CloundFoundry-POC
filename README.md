@@ -6,8 +6,7 @@ Rest Express
 ==================
 1. git clone the project
 2. cd to the robtestartifact directory
-2. mvn clean package
-3. mvn assembly:single
+3. mvn package assembly:single
 
 
 Cloud Foundry

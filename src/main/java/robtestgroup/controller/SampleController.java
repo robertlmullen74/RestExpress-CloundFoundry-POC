@@ -15,7 +15,7 @@ public class SampleController
 	public SimpleResponse read(Request request, Response response)
 	{
 		SimpleResponse so = new SimpleResponse();
-		so.setStatus("healthy");
+		so.setStatus("veryhealthy");
 		return so;
 		
 	}
